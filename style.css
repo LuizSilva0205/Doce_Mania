@@ -1,0 +1,100 @@
+*{
+    --cor_pessego:#EB868C;
+    --cor_rosa:#FFE8E8;
+    --cor_pink:#DE49BB;
+    --cor_roxa:#EA45F5;
+    --cor_rosa_fosco:#D798ED;
+
+    margin: 0px;
+}
+
+header#cabeçalho{
+
+    background-color: white;
+    background-image: linear-gradient(to bottom,#FFE8E8, white);
+
+}
+
+
+
+img#logo{
+    padding: 20px ;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+header>h1#barra_descrição{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+main#conteudo{
+
+    background-color: white;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+
+}
+
+
+main>h2{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.7em;
+
+
+
+}
+
+.seções{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.imagem{
+    margin: 50px;
+    border-radius: 10px;
+    border: 5px solid black;
+    display: block;
+    margin-left: auto;
+}
+
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-indent: 30px;
+    margin: 50px;
+}
+
+
+footer#rodape{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,white, #EA45F5);
+    font-size: 2em;
+}
